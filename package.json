@@ -25,5 +25,8 @@
   "homepage": "https://github.com/JuusoPesonen/Portfolio-website#readme",
   "devDependencies": {
     "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
   }
 }
