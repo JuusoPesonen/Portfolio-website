@@ -5,8 +5,7 @@
 node_modules
 package-lock.json
 package.json
-scss/¨
-assets/
+scss/
 # User-specific files
 *.rsuser
 *.suo
