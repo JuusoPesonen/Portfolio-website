@@ -148,6 +148,15 @@ img {
 .custom-link:hover::after {
     width: 100%;
 }
+
+/* accordion landing */
+
+.accordion {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    min-width: 700px;
+}
 /* Fonts * /
 
 /* font-family: 'Roboto Mono', monospace;*/
