@@ -213,9 +213,11 @@ img {
     margin-right: auto;
     padding: 50px;
     min-width: 700px;
-
 }
-
+.accordion-button {
+    background-color: #303e99;
+    color: #f0f8ff;
+}
 .fa-school {
     margin: 10px;
 }
