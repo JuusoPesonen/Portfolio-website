@@ -214,10 +214,21 @@ img {
     padding: 50px;
     min-width: 700px;
 }
+
 .accordion-button {
-    background-color: #303e99;
+    background-color:#ffff;
     color: #f0f8ff;
+    min-height: 65px;
 }
+
+.accordion-button:hover {
+    color: #303e99;
+}
+
+.accordion-button.active {
+    color:#f0ff48;
+}
+
 .fa-school {
     margin: 10px;
 }
