@@ -232,6 +232,17 @@ img {
 .card-custom-image img {
     height: 500px;
 }
+
+/* About page */
+
+.first-img {
+    height: 400px;
+}
+
+.second-img {
+    height: 400px;
+}
+
 /* Fonts * /
 
 /* font-family: 'Roboto Mono', monospace;*/
