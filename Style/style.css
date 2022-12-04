@@ -129,6 +129,11 @@ img {
 .navbar .nav-link:hover {
     color: #f4ff80;
 }
+/* shows current page location on hover */
+.nav-link[aria-current="page"] {
+    text-decoration: underline wavy#f0ff48 0.15rem;
+    text-underline-offset: 0.5rem;
+}
 
 @media (min-width: 992px) {
     .navbar {
