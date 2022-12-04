@@ -76,7 +76,7 @@ img {
     color: #f0ff48;
 }
 
-.fa-gamepad {
+.gamepad-1 {
     color: #f0ff48;
 }
 .row {
@@ -131,7 +131,7 @@ img {
 }
 /* shows current page location on hover */
 .nav-link[aria-current="page"] {
-    text-decoration: underline wavy#f0ff48 0.15rem;
+    text-decoration: underline #f0ff48 0.15rem;
     text-underline-offset: 0.5rem;
 }
 
@@ -222,6 +222,12 @@ img {
 
 .fa-gamepad {
     margin: 10px;
+}
+
+/*card-custom element */
+
+.card-custom-image img {
+    height: 500px;
 }
 /* Fonts * /
 
