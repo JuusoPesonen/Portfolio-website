@@ -236,7 +236,9 @@ img {
 .fa-gamepad {
     margin: 10px;
 }
-
+.gamemaker-img {
+    min-height: 250px;
+}
 /*Pictures page */
 
 .card-custom-image {
