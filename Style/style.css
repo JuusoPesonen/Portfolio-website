@@ -251,7 +251,7 @@ img {
 /*Pictures page */
 
 .card-custom-image {
-    width: fit-content;
+    min-width:fit-content;
 }
 .card-custom-image img {
     height: 500px;
