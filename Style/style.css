@@ -134,7 +134,7 @@ img {
     text-decoration: underline #f0ff48 0.15rem;
     text-underline-offset: 0.5rem;
 }
-
+/* Responsive starts here */
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
@@ -183,6 +183,8 @@ img {
         min-width: 200px;
     }
 }
+/* Responsive ends here */
+
 /* Main page btn */
 
 .btn {
