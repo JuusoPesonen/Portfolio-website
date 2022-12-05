@@ -236,9 +236,18 @@ img {
 .fa-gamepad {
     margin: 10px;
 }
+
 .gamemaker-img {
-    min-height: 250px;
+    min-height: 300px;
+    padding: 20px;
+    
 }
+
+.coding-img {
+    min-height: 300px;
+    padding: 20px;
+}
+
 /*Pictures page */
 
 .card-custom-image {
