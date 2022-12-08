@@ -160,7 +160,7 @@ img {
     .navbar {
         min-height: 100vh;
         min-width: 250px;
-        background: linear-gradient(rgb(3, 66, 74, 0.9), rgb(3, 66, 74, 0.9)), url(/Images/nature-wallpaper.jpg);
+        background: linear-gradient(rgb(3, 66, 74, 0.9), rgb(3, 66, 74, 0.9)), url(./Images/nature-wallpaper.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -177,7 +177,7 @@ img {
     padding-left: 10px;
     line-height: 30px;
     padding-bottom: 250px;
-    background: linear-gradient(rgb(3, 66, 74, 0.9), rgb(3, 66, 74, 0.9)), url(/Images/nature-wallpaper.jpg);
+    background: linear-gradient(rgb(3, 66, 74, 0.9), rgb(3, 66, 74, 0.9)), url(./Images/nature-wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -263,6 +263,11 @@ img {
 .fa-gamepad {
     margin: 10px;
 }
+
+.coding-img {
+    min-height: 250px;
+}
+
 .gamemaker-img {
     min-height: 250px;
 }
