@@ -1,0 +1,274 @@
+:root {
+  --color-primary:#0c175a;
+  --color-secondary:#f4ff80;
+  --color-third: #9c7925;
+  --color-base: #32375a;
+  --color-white: #ffffff;
+  --color-black: #000;
+  --color-grey0: #f8f8f8;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  font-family: "Roboto Mono", "sans-serif", monospace;
+}
+
+h1, h2, h3, h4, h4, h6 {
+  color: var(--color-grey0);
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-secondary);
+  transition: all 0.4s ease;
+}
+
+.display-4 h1 {
+  font-size: 1.2em;
+}
+
+a:hover {
+  color: #91fdff;
+}
+
+img {
+  width: 100%;
+}
+
+.text-brand {
+  color: var(--color-secondary);
+}
+
+.bg-base {
+  background-color: var(--color-base);
+}
+
+.full-height {
+  min-height: 65vh;
+  height: 100%;
+  border-radius: 10px;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+  border-bottom: 2px solid var(--color-black);
+}
+
+.shadow-sm {
+  transition: all 0.5s;
+}
+
+.shadow-sm:hover {
+  box-shadow: -6px 6px 0px 8px var(--color-third);
+}
+
+.iconbox {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6em;
+  padding: 10px;
+}
+
+.fa-youtube {
+  color: var(--color-secondary);
+}
+
+.fa-twitch {
+  color: var(--color-secondary);
+}
+
+.gamepad-1 {
+  color: var(--color-secondary);
+}
+
+.row {
+  display: flex;
+  padding: 10px;
+}
+
+.content-1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-2 {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-3 {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #303e99;
+}
+
+.navbar-nav .nav-item {
+  position: relative;
+  margin-top: 10px;
+  left: 0;
+  font-size: 1.2em;
+  line-height: 40px;
+}
+
+.navbar-brand, img {
+  height: 80px;
+  margin-left: 6px;
+}
+
+.navbar-nav img {
+  height: 170px;
+  margin-top: 22px;
+}
+
+.navbar .nav-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f9f9f9;
+}
+
+.navbar .nav-link:hover {
+  color: #f4ff80;
+}
+
+/* shows current page location on hover */
+.nav-link[aria-current=page] {
+  text-decoration: underline #f0ff48 0.15rem;
+  text-underline-offset: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    min-height: 100vh;
+    min-width: 250px;
+    background: linear-gradient(rgba(3, 66, 74, 0.9), rgba(3, 66, 74, 0.9)), url(../Images/nature-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .navbar-nav img {
+    border: 5px solid #a37e21;
+  }
+  /* Content Wrapper */
+  #content-wrapper {
+    padding: 20px;
+    margin: 0;
+    padding-left: 10px;
+    line-height: 30px;
+    padding-bottom: 250px;
+    background: linear-gradient(rgba(3, 66, 74, 0.9), rgba(3, 66, 74, 0.9)), url(../Images/nature-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+/* Main page btn */
+.btn {
+  padding: 12px 28px;
+  font-weight: 700;
+  color: #0a0d23;
+}
+
+.btn-brand {
+  background-color: #67f5f7;
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+  background-color: #1e3d65;
+  color: #ffd56a;
+  border-color: #f4ff80;
+}
+
+/* custom link text */
+.custom-link {
+  font-weight: 700;
+  font-size: 1.2em;
+  position: relative;
+  padding: 0;
+  margin: 6px;
+}
+
+.custom-link::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #f0ff48;
+  position: absolute;
+  left: 0;
+  top: 110%;
+  transition: all 0.4s;
+}
+
+.custom-link:hover::after {
+  width: 100%;
+}
+
+/* accordion landing */
+.accordion {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  min-width: 700px;
+}
+
+.accordion-button {
+  background-color: white;
+  color: #f0f8ff;
+  min-height: 65px;
+}
+
+.accordion-button:hover {
+  color: #303e99;
+}
+
+.accordion-button.active {
+  color: #f0ff48;
+}
+
+.fa-school {
+  margin: 10px;
+}
+
+.fa-gamepad {
+  margin: 10px;
+}
+
+.gamemaker-img {
+  min-height: 250px;
+}
+
+/*Pictures page */
+.card-custom-image {
+  width: fit-content;
+}
+
+.card-custom-image img {
+  height: 500px;
+}
+
+/* About page */
+.first-img {
+  height: 400px;
+}
+
+.second-img {
+  height: 400px;
+}
+
+/* Fonts * /
+
+/* font-family: 'Roboto Mono', monospace;*/
+
+/*# sourceMappingURL=style.css.map */
