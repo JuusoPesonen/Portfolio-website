@@ -23,6 +23,8 @@
 /* $background-colour: pink; */
 body {
   background-image: url(/Images/nature-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--color-secondary);
   font-family: "Roboto Mono", "sans-serif", monospace;
 }
