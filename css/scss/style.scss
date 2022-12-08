@@ -17,7 +17,7 @@
    }
   } */
 /* sass style.scss style.css */
-/* $highlight-colour: green; */
+$highlight-colour: #f5eb5e;
 /* $background-colour: pink; */
 body {
     background-color: var(--color-primary);
@@ -74,7 +74,7 @@ img {
 }
 
 .shadow-sm:hover {
-    box-shadow: -6px 6px 0px 8px var(--color-third);
+    border: 5px solid $highlight-colour;
 }
 
 .iconbox {
