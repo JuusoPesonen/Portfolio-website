@@ -22,7 +22,7 @@
 /* sass style.scss style.css */
 /* $background-colour: pink; */
 body {
-  background-image: linear-gradient(#3c3ca8, #3c3cf2, rgba(133, 167, 214, 0.7764705882));
+  background-image: url(/Images/nature-wallpaper.jpg);
   color: var(--color-secondary);
   font-family: "Roboto Mono", "sans-serif", monospace;
 }
