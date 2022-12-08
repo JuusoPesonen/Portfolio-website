@@ -22,6 +22,7 @@
 /* sass style.scss style.css */
 /* $background-colour: pink; */
 body {
+  background-image: linear-gradient(#3c3ca8, #3c3cf2);
   color: var(--color-secondary);
   font-family: "Roboto Mono", "sans-serif", monospace;
 }
