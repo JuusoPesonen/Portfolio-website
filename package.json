@@ -4,7 +4,7 @@
   "description": "Portfolio site",
   "main": "index.js",
   "scripts": {
-    "watch:scss": "node-sass -w Style/scss/style.scss Style/style.css"
+    "watch:scss": "node-sass -w css/scss/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
