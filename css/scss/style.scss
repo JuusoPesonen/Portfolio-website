@@ -12,6 +12,7 @@
 }
 /* Other variables */
 $highlight-colour: #f5eb5e;
+$background-colour: rgba(0, 111, 119, 0.794);
 /* Sass possible variables to use */
 /* @mixin theme($theme: Pink) {
    border: $theme;
@@ -22,9 +23,7 @@ $highlight-colour: #f5eb5e;
 /* sass style.scss style.css */
 /* $background-colour: pink; */
 body {
-    background-image: url(/Images/nature-wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: $background-colour;
     color:var(--color-secondary);
     font-family: 'Roboto Mono', 'sans-serif', monospace;
 }
