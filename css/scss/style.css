@@ -1,3 +1,4 @@
+/* Color variables */
 :root {
   --color-primary:#0c175a;
   --color-secondary:#f4ff80;
@@ -38,7 +39,8 @@ a {
   transition: all 0.4s ease;
 }
 
-.display-4 h1 {
+.display-4 + h1 {
+  color: var(--color-base);
   font-size: 1.2em;
 }
 
@@ -123,10 +125,9 @@ img {
 }
 
 /* Navbar */
-.navbar {
-  background-color: #303e99;
-}
-
+/*.navbar {
+    background-color: #303e99;
+} */
 .navbar-nav .nav-item {
   position: relative;
   margin-top: 10px;
@@ -199,6 +200,7 @@ img {
 
 .btn:hover {
   box-shadow: inset 150px 0 0 0 #1b2eb8;
+  font-size: 19px;
 }
 
 .btn-brand {
