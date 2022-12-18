@@ -1,3 +1,4 @@
+/* Color variables */
 :root {
     --color-primary:#0c175a;
     --color-secondary:#f4ff80;
@@ -13,7 +14,12 @@
 /* Other variables */
 $highlight-colour: #f5eb5e;
 $background-colour: rgba(0, 111, 119, 0.794);
+$bg: var(--color-primary);
+$text: var(--color-secondary);
 $hover-colour: #1b2eb8;
+$gradient: var(--color-primary), var(--color-base);
+$base-size: 20px;
+
 /* Sass possible variables to use */
 /* @mixin theme($theme: Pink) {
    border: $theme;
@@ -23,6 +29,15 @@ $hover-colour: #1b2eb8;
   } */
 /* sass style.scss style.css */
 /* $background-colour: pink; */
+@mixin color-scheme($text, $bg) {
+    background-color: $bg;
+    color: $text;
+
+    .navbar {
+        @include color-scheme($gradient, var(--color-black));
+    }
+}
+
 body {
     background-color: $background-colour;
     color:var(--color-secondary);
@@ -40,7 +55,8 @@ a {
     transition: all 0.4s ease;
 }
 
-.display-4 h1 {
+.display-4 + h1 {
+    color: var(--color-base);
     font-size: 1.2em;
 }
 
@@ -123,9 +139,10 @@ img {
 }
 
 /* Navbar */
-.navbar {
+
+/*.navbar {
     background-color: #303e99;
-}
+} */
 .navbar-nav .nav-item {
     position:relative;
     margin-top: 10px;
@@ -199,6 +216,7 @@ img {
 
 .btn:hover {
     box-shadow: inset 150px 0 0 0 $hover-colour;
+    font-size: $base-size * 0.95;
 }
 .btn-brand {
     background-color: #67f5f7;
