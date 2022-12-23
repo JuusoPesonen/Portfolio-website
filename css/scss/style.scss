@@ -35,6 +35,8 @@ $base-size: 20px;
 
     .navbar {
         @include color-scheme($gradient, var(--color-black));
+
+        @include background-image("/Images/nature-wallpaper.jpg", rgba(102, 255, 235, 0.544));
     }
 }
 
