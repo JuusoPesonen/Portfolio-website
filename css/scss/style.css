@@ -21,7 +21,6 @@
    }
   } */
 /* sass style.scss style.css */
-/* $background-colour: pink; */
 body {
   background-color: rgba(0, 111, 119, 0.794);
   color: var(--color-secondary);

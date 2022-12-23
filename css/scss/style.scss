@@ -28,7 +28,7 @@ $base-size: 20px;
    }
   } */
 /* sass style.scss style.css */
-/* $background-colour: pink; */
+
 @mixin color-scheme($text, $bg) {
     background-color: $bg;
     color: $text;
